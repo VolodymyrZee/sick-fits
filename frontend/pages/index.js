@@ -1,10 +1,12 @@
-import React from 'react';
-import { render } from 'enzyme';
+import Link from 'next/link';
 
-class Home extends React.Component {
-    render() {
-        return <p>Hey There all visitors!</p>
-    }
-}
+const Home = props => (
+    <div>
+        <p>Hey there!!!!!!!</p>
+        <Link href="/sell">
+        <a>Sell!</a>
+        </Link>
+    </div>
+)
 
 export default Home;
