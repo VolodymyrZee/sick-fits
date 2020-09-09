@@ -3,7 +3,7 @@ import { render } from 'enzyme';
 
 class Home extends React.Component {
     render() {
-        return <p>Hey There!</p>
+        return <p>Hey There all visitors!</p>
     }
 }
 

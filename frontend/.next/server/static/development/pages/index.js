@@ -149,7 +149,7 @@ function (_React$Component) {
           lineNumber: 6
         },
         __self: this
-      }, "Hey There!");
+      }, "Hey There all visitors!");
     }
   }]);
 
