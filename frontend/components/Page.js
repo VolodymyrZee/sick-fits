@@ -12,5 +12,5 @@ import Meta from './Meta';
             </div>
         );
     }
-}
+} 
 export default Page;
