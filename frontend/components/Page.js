@@ -8,7 +8,7 @@ import Meta from './Meta';
             <div>
                 <Meta />
                <Header />
-               <button>Click ME!</button>
+               <button>Click Me!</button>
                 {this.props.children}
             </div>
         );
