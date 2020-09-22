@@ -9,7 +9,6 @@ import Meta from './Meta';
                 <Meta />
                <Header />
                <button>Click Me!</button>
-               <button>Make a purchase</button>
                 {this.props.children}
             </div>
         );
