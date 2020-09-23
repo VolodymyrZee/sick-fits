@@ -15,6 +15,9 @@ font-size: 100px;
                 <Meta />
                <Header />
                <MyButton>Click Me!</MyButton>
+               <MyButton>Click Me!</MyButton>
+               <MyButton>Click Me!</MyButton>
+               <MyButton>Click Me!</MyButton>
                 {this.props.children}
             </div>
         );
