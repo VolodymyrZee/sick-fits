@@ -17,11 +17,15 @@ font-size: ${props=> (props.huge ? '100px' : '50px' )};
             <div>
                 <Meta />
                <Header />
-               <MyButton huge>
+               <MyButton huge = "100">
                    Click Me!
                    <span className="poop">+poop</span>
                    </MyButton>
-               
+                   <Header />
+                   <MyButton>
+                   Click Me!
+                   <span className="poop">+poop</span>
+                   </MyButton>
                 {this.props.children}
             </div>
         );
