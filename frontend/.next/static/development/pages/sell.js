@@ -10116,7 +10116,7 @@ var Sell = function Sell(props) {
       lineNumber: 5
     },
     __self: this
-  }, "We are selling best merchandise here!!!"));
+  }, "Sellers Department"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Sell);
