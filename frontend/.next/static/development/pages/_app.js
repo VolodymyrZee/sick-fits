@@ -261,7 +261,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n@font-face {\n    font-family: 'radnika_next';\n    src: url('/static/radnikanext-medium-webfront.woff2')\n    format ('woff2');\n    font-weight: normal;\n    font-style: normal;\n}\nhtml {\n    box-sizing: border-box;\n    font-size: 10px;\n}\n*, *:before, *:after {\n    box-sizing: inherit;\n}\nbody {\n    padding: 0;\n    margin: 0;\n    font-size: 1.5rem;\n    line-height: 2;\n}\n"]);
+  var data = _taggedTemplateLiteral(["\n@font-face {\n    font-family: 'radnika_next';\n    src: url('/static/radnikanext-medium-webfront.woff2')\n    format ('woff2');\n    font-weight: normal;\n    font-style: normal;\n}\nhtml {\n    box-sizing: border-box;\n    font-size: 10px;\n}\n*, *:before, *:after {\n    box-sizing: inherit;\n}\nbody {\n    padding: 0;\n    margin: 0;\n    font-size: 1.5rem;\n    line-height: 2;\n    font-family: 'radnika_next';\n}\na {\n    text-decoration: none;\n    color: ", ";\n}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -297,7 +297,7 @@ var Inner = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withCo
 })(["max-width:", ";margin:0 auto;padding:2rem;"], function (props) {
   return props.theme.maxWidth;
 });
-Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["injectGlobal"])(_templateObject());
+Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["injectGlobal"])(_templateObject(), theme.black);
 
 var Page =
 /*#__PURE__*/
@@ -317,31 +317,31 @@ function (_Component) {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 61
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledPage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 62
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 63
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 64
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Inner, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 65
         },
         __self: this
       }, this.props.children)));
