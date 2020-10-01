@@ -41,6 +41,7 @@ html {
     box-sizing: inherit;
 }
 body {
+
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
@@ -48,6 +49,7 @@ body {
     font-family: 'radnika_next';
 }
 a {
+
     text-decoration: none;
     color: ${theme.black};
 }
@@ -58,6 +60,7 @@ a {
  class Page extends Component {
     render() {
         return(
+            
             <ThemeProvider theme = {theme}>
             <StyledPage>
                 <Meta />
