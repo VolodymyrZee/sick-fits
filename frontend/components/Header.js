@@ -23,20 +23,25 @@ position: relative;
 z-index:2;
 transform: skew(-7deg);
 a {
+
     padding: 0.5rem 1rem;
     background: ${props => props.theme.red};
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+
 }
 @media (max-width: 1300px) {
+
     margin: 0;
     text-align: center;
+
 }
 `;
 
 const StyledHeader = styled.header`
   .bar {
+
     border-bottom: 10px solid ${props => props.theme.black};
     display: grid;
     grid-template-columns: auto 1fr;
@@ -49,13 +54,16 @@ const StyledHeader = styled.header`
     }
   }
   .sub-bar {
+
      display: grid;
      grid-template-columns: 1fr auto;
      border-bottom: 1px solid ${props => props.theme.lightgrey}; 
+
   }
 `;
 
 const Header = ()=> (
+
     <StyledHeader>
         <div className="bar">
             <Logo>
@@ -70,6 +78,7 @@ const Header = ()=> (
             </div>
             <div>Cart!</div>
     </StyledHeader>
+    
 );
 
 export default Header;

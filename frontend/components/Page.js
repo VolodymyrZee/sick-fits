@@ -60,7 +60,7 @@ a {
  class Page extends Component {
     render() {
         return(
-            
+
             <ThemeProvider theme = {theme}>
             <StyledPage>
                 <Meta />
@@ -68,7 +68,9 @@ a {
                 <Inner>{this.props.children}</Inner>
             </StyledPage>
             </ThemeProvider>
+
         );
     }
 } 
+
 export default Page;
