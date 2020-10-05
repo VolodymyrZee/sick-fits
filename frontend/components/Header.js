@@ -67,12 +67,16 @@ const Header = ()=> (
     <StyledHeader>
         <div className="bar">
             <Logo>
+                
                 <Link href="/">
+        
         <a>Super Sick Fits</a>
         </Link>
         </Logo>
         <Nav />
+           
             </div>
+            
             <div className="sub-bar">
                 <p>Search Bar</p>
             </div>
