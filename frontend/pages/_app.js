@@ -3,8 +3,10 @@ import Page from '../components/Page';
 
 class MyApp extends App {
     render() {
+        
         const {Component} = this.props;
         return(
+
             <Container>
                 <Page>
                 <Component/>
