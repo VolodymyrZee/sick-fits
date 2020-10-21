@@ -6,6 +6,13 @@ const Mutations = {
         global.dogs.push(newDog);
         return newDog;
     },
+    createCat(parent, args, ctx, info) {
+        global.cats = global.cats || [];
+        // create a cat!
+        const newCat = { name: args.name};
+        global.cast.push(newCat);
+        return newCat;
+    },
 };
 
 module.exports = Mutations;
