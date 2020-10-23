@@ -1,16 +1,12 @@
 type Dog {
     name: String!
 }
-type Cat {
-    name: String!
-}
+
 
 type Mutation {
     createDog(name: String!): Dog
-    createCat(name: String!): Cat
 }
 
 type Query {
     dogs: [Dog]!
-    cats: [Cat]!
 }
