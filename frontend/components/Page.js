@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Meta from './Meta';
-import styled, {ThemeProvider, injectGlobal} from 'styled-components';
+import styled, { ThemeProvider, injectGlobal } from 'styled-components';
 
 const theme = {
     red: '#FF0000',
@@ -18,14 +18,14 @@ background: white;
 color: ${props => props.theme.black};
 `;
 
-const Inner = styled.div `
+const Inner = styled.div`
 max-width: ${props => props.theme.maxWidth};
 margin: 0 auto;
 padding: 2rem;
 `;
 
 
-injectGlobal `
+injectGlobal`
 @font-face {
     font-family: 'radnika_next';
     src: url('/static/radnikanext-medium-webfront.woff2')
@@ -57,20 +57,20 @@ a {
 
 
 
- class Page extends Component {
+class Page extends Component {
     render() {
-        return(
+        return (
 
-            <ThemeProvider theme = {theme}>
-            <StyledPage>
-                <Meta />
-               <Header />
-                <Inner>{this.props.children}</Inner>
-            </StyledPage>
+            <ThemeProvider theme={theme}>
+                <StyledPage>
+                    <Meta />
+                    <Header />
+                    <Inner>{this.props.children}</Inner>
+                </StyledPage>
             </ThemeProvider>
 
         );
     }
-} 
+}
 
 export default Page;
